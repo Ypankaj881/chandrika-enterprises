@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 
 export async function generateMetadata({ params }) {
-    const slug = params.slug;
+    const { slug } = await params;
     const category = products.find((p) => p.slug === slug);
 
     return {
@@ -14,9 +14,14 @@ export async function generateMetadata({ params }) {
     };
 }
 
-export default function CategoryPage({ params }) {
-    const slug = params.slug;
+export default async function CategoryPage({ params }) {
+    const { slug } = await params;
+
+
+
     const category = products.find((p) => p.slug === slug);
+
+
 
     if (!category) {
         return (
