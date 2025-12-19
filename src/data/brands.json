@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Hindustan Pencils",
+    "slug": "hindustan-pencils",
+    "logo": "/brands/hindustan.png",
+    "description": "Manufacturer of high-quality pencils, erasers, sharpeners and school stationery."
+  },
+  {
+    "name": "JL Morison",
+    "slug": "jl-morison",
+    "logo": "/brands/jl-morison.png",
+    "description": "Premium pens and writing instruments trusted across India."
+  },
+  {
+    "name": "Adour Paris",
+    "slug": "adour-paris",
+    "logo": "/brands/adour.png",
+    "description": "Luxury fragrance and personal care brand."
+  },
+  {
+    "name": "BellaVita",
+    "slug": "bellavita",
+    "logo": "/brands/bellavita.png",
+    "description": "Natural personal care and wellness products."
+  },
+  {
+    "name": "HipHop Skincare",
+    "slug": "hiphop-skincare",
+    "logo": "/brands/hiphop.png",
+    "description": "Advanced skincare solutions with active ingredients."
+  }
+]

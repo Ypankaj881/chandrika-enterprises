@@ -1,0 +1,5 @@
+[
+  { "name": "Classmate Notebook", "category": "notebooks", "price": 50, "img": "/images/notebooks.jpg" },
+  { "name": "Apsara Pencil", "category": "school", "price": 10, "img": "/images/pens.jpg" },
+  { "name": "Cello Gel Pen", "category": "pens", "price": 20, "img": "/images/pens.jpg" }
+]
