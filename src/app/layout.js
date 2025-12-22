@@ -18,6 +18,10 @@ export const metadata = {
     locale: "en_IN",
     type: "website",
   },
+  alternates: {
+    canonical: "https://chandrika-enterprises.in",
+  },
+
 };
 
 
@@ -26,8 +30,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className="antialiased">
+      <head>
+        {/* ✅ BEST PLACE FOR SCHEMA */}
         <LocalBusinessSchema />
+      </head>
+      <body className="antialiased">
+
         <Navbar />
         <main className="">{children}</main>
         <Footer />

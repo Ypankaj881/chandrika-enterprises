@@ -11,7 +11,7 @@ export default function Layout({ children }) {
 
                         <Image
                             src="/logo.png"
-                            alt="Chandrika Enterprise"
+                            alt="Chandrika Enterprises"
                             width={150}
                             height={60}
                             priority
@@ -31,7 +31,7 @@ export default function Layout({ children }) {
 
             {/* Footer */}
             <footer className="bg-gray-100 text-center p-4 text-gray-600">
-                © {new Date().getFullYear()} Chandrika Enterprise | All Rights Reserved
+                © {new Date().getFullYear()} Chandrika Enterprises | All Rights Reserved
             </footer>
         </div>
     );
