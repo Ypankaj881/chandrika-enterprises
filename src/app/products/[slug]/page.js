@@ -11,8 +11,8 @@ export async function generateMetadata({ params }) {
     const category = products.find((p) => p.slug === slug);
 
     return {
-        title: `${category?.name || "Products"} | Chandrika Enterprise`,
-        description: `Explore ${category?.name || "our products"} from Chandrika Enterprise.`,
+        title: `${category?.name || "Products"} | Chandrika Enterprises`,
+        description: `Explore ${category?.name || "our products"} from Chandrika Enterprises.`,
     };
 }
 
