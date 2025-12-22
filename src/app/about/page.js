@@ -1,9 +1,9 @@
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-    title: "About Us | Chandrika Enterprise",
+    title: "About Us | Chandrika Enterprises",
     description:
-        "Learn about Chandrika Enterprise, our journey, mission, and commitment to quality stationery distribution.",
+        "Learn about Chandrika Enterprises, our journey, mission, and commitment to quality stationery distribution.",
 };
 
 export default function About() {
@@ -14,7 +14,7 @@ export default function About() {
             <section className="bg-gradient-to-r from-[#1D3557] to-[#243A5E] text-white">
                 <div className="max-w-7xl mx-auto px-6 py-16 text-center">
                     <h1 className="text-3xl md:text-4xl font-bold">
-                        About Chandrika Enterprise
+                        About Chandrika Enterprises
                     </h1>
                     <p className="mt-3 text-slate-200 max-w-2xl mx-auto">
                         Your trusted stationery distribution partner
@@ -27,7 +27,7 @@ export default function About() {
                 <div className="bg-white rounded-2xl border shadow-sm p-8 md:p-12 space-y-6">
 
                     <p className="text-slate-700 leading-relaxed text-lg">
-                        Chandrika Enterprise is a trusted distributor of quality stationery
+                        Chandrika Enterprises is a trusted distributor of quality stationery
                         products, serving schools, offices, retailers, and institutions.
                         We focus on reliability, fair pricing, and long-term partnerships.
                     </p>
