@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://chandrika-enterprises.in
+
+# Sitemaps
+Sitemap: https://chandrika-enterprises.in/sitemap.xml

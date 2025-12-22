@@ -49,68 +49,80 @@ import products from "@/data/products.json";
 export const metadata = {
     title: "Products | Chandrika Enterprise",
     description:
-        "Explore premium stationery products including notebooks, pens, files, office supplies, and more from Chandrika Enterprise.",
+        "Explore premium stationery brands and product categories supplied by Chandrika Enterprise for schools, offices and retailers.",
 };
 
 export default function ProductsPage() {
     return (
-        <main className="bg-gradient-to-b from-white via-gray-50 to-white min-h-screen">
-            {/* Hero Section */}
-            <section className="bg-gradient-to-r from-amber-600 to-yellow-500 text-white py-16 shadow-md">
-                <div className="max-w-7xl mx-auto px-6 text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold drop-shadow-lg">
+        <main className="bg-[#F8FAFC] min-h-screen text-slate-800">
+
+            {/* ================= HERO ================= */}
+            <section className="bg-gradient-to-r from-[#1D3557] to-[#243A5E] text-white">
+                <div className="max-w-7xl mx-auto px-6 py-16 text-center">
+                    <h1 className="text-4xl md:text-5xl font-bold">
                         Our Product Range
                     </h1>
-                    <p className="mt-4 text-lg max-w-2xl mx-auto opacity-90">
-                        We offer a wide selection of high-quality stationery products for
-                        businesses, schools, and retailers. Browse our categories below.
+                    <p className="mt-4 text-slate-200 max-w-2xl mx-auto">
+                        We supply trusted stationery brands and products for schools,
+                        offices, wholesalers and retailers across Maharashtra.
                     </p>
                 </div>
             </section>
 
-            {/* Product Categories */}
-            <section className="max-w-7xl mx-auto px-6 py-16">
+            {/* ================= CATEGORIES ================= */}
+            <section className="max-w-7xl mx-auto px-6 py-20">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
                     {products.map((cat) => (
                         <Link
                             key={cat.name}
                             href={`/products/${cat.slug}`}
-                            className="group bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden"
+                            className="bg-white border rounded-2xl hover:shadow-lg transition overflow-hidden"
                         >
-                            <div className="relative w-full h-52">
+                            <div className="relative h-52 bg-white">
                                 <Image
                                     src={cat.logo}
                                     alt={cat.name}
                                     fill
-                                    className="object-cover group-hover:scale-105 transition duration-300"
+                                    className="object-contain p-6"
                                 />
                             </div>
+
                             <div className="p-4 text-center">
-                                <h2 className="text-xl font-semibold text-gray-800 group-hover:text-amber-600 transition">
+                                <h2 className="font-semibold text-[#1D3557] hover:text-[#E63946] transition">
                                     {cat.name}
                                 </h2>
                             </div>
                         </Link>
                     ))}
+
                 </div>
             </section>
 
-            {/* Call to Action */}
-            <section className="bg-amber-600 text-white py-12 text-center">
-                <h2 className="text-2xl md:text-3xl font-bold">
-                    Need Bulk or Custom Orders?
-                </h2>
-                <p className="mt-2 opacity-90">
-                    Contact us today and get a quote for your business or institution.
-                </p>
-                <Link
-                    href="/contact"
-                    className="mt-6 inline-block bg-white text-amber-700 font-semibold px-6 py-3 rounded-xl shadow hover:bg-gray-100 transition"
-                >
-                    Contact Us
-                </Link>
+            {/* ================= CTA ================= */}
+            <section className="pb-20">
+                <div className="max-w-5xl mx-auto px-6">
+                    <div className="bg-[#1D3557] text-white rounded-3xl py-14 text-center">
+
+                        <h2 className="text-2xl md:text-3xl font-bold">
+                            Looking for Bulk or Wholesale Orders?
+                        </h2>
+
+                        <p className="mt-3 text-slate-200">
+                            Get in touch with us for catalogs, pricing and distributor enquiries.
+                        </p>
+
+                        <Link
+                            href="/contact"
+                            className="inline-block mt-6 bg-[#E63946] px-8 py-3 rounded-xl font-semibold hover:bg-[#C51F2A] transition shadow"
+                        >
+                            Contact Us
+                        </Link>
+
+                    </div>
+                </div>
             </section>
+
         </main>
     );
 }
-

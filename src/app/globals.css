@@ -1,9 +1,18 @@
 @import "tailwindcss";
 
+
+
+
 :root {
+  --primary: #f59e0b;
+  /* amber-500 */
+  --primary-dark: #d97706;
+  --text-dark: #1f2937;
+  --bg-light: #f9fafb;
   --background: #ffffff;
   --foreground: #171717;
 }
+
 
 @theme inline {
   --color-background: var(--background);
