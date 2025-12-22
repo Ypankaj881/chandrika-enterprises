@@ -5,109 +5,130 @@ import products from "@/data/products.json";
 export const metadata = {
   title: "Chandrika Enterprise | Premium Stationery Distributor",
   description:
-    "Chandrika Enterprise is a trusted distributor for stationery products including notebooks, pens, files, and office supplies. Serving businesses, schools, and retailers with quality products at the best price in Thane, Maharashtra.",
+    "Chandrika Enterprise is a trusted distributor for stationery products including notebooks, pens, files, and office supplies. Serving schools, businesses, and retailers across Maharashtra.",
 };
 
 export default function Home() {
   return (
-    <main className="flex flex-col bg-[#F1FAEE] text-slate-800">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-[#1D3557] to-[#0D1B2A] text-white">
-        <div className="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between gap-10">
-          <div className="md:w-1/2">
+    <main className="bg-[#F8FAFC] text-slate-800">
+
+      {/* ================= HERO ================= */}
+      <section className="bg-gradient-to-r from-[#1D3557] to-[#243A5E] text-white">
+        <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+
+          <div>
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              Chandrika Enterprises
+              Chandrika Enterprise
             </h1>
-            <p className="mt-4 text-lg text-gray-200">
+
+            <p className="mt-4 text-lg text-slate-200">
               Your trusted distributor for premium stationery products in
-              Shree Nagar and entire Maharashtra — serving schools, businesses & retailers.
+              Thane and across Maharashtra — serving schools, offices and retailers.
             </p>
-            <div className="mt-6 flex gap-4">
+
+            <div className="mt-8 flex gap-4 flex-wrap">
               <Link
                 href="/products"
-                className="bg-[#E63946] text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-[#C51F2A] hover:shadow-xl transition-all"
+                className="bg-[#E63946] text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-[#C51F2A] transition"
               >
                 Browse Products
               </Link>
+
               <Link
                 href="/contact"
-                className="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-[#1D3557] transition-all"
+                className="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-[#1D3557] transition"
               >
                 Contact Us
               </Link>
             </div>
           </div>
-          <div className="hidden md:block md:w-1/2 relative h-72">
+
+          <div className="relative h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl">
             <Image
               src="/images/stationary.jpg"
               alt="Stationery products"
               fill
-              className="object-cover rounded-2xl shadow-2xl"
+              className="object-cover"
               priority
             />
           </div>
+
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="max-w-7xl mx-auto px-6 py-20">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1D3557]">
-          About Chandrika Enterprise
-        </h2>
-        <p className="mt-6 text-gray-700 text-center max-w-2xl mx-auto leading-relaxed">
-          We are a leading distributor of high-quality stationery products —
-          notebooks, pens, files, office supplies, and more. Our mission is to
-          make premium stationery accessible to businesses, schools, and
-          retailers at competitive prices, with reliable service and timely
-          delivery.
-        </p>
+      {/* ================= ABOUT ================= */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1D3557]">
+            About Chandrika Enterprise
+          </h2>
+
+          <p className="mt-6 text-gray-600 leading-relaxed">
+            We are a leading distributor of high-quality stationery products —
+            notebooks, pens, files, and office supplies. Our focus is on reliable
+            service, genuine brands, and long-term business relationships.
+          </p>
+        </div>
       </section>
 
-      {/* Product Categories Section */}
+      {/* ================= CATEGORIES ================= */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
+
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1D3557]">
             Our Product Categories
           </h2>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-12">
             {products.map((cat) => (
               <Link
                 key={cat.name}
                 href={`/products/${cat.slug}`}
-                className="group bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all overflow-hidden "
+                className="bg-[#F8FAFC] border fle rounded-2xl hover:shadow-lg transition overflow-hidden"
               >
-                <div className="relative w-full h-56">
+                <div className="relative h-52 bg-white">
                   <Image
                     src={cat.logo}
                     alt={cat.name}
                     fill
-                    className="object-cover group-hover:scale-105 transition p-4"
+                    className="object-contain p-6"
                   />
                 </div>
-                <div className="p-5 text-center font-semibold text-lg text-[#1D3557] group-hover:text-[#E63946]">
-                  {cat.name}
+
+                <div className="p-4 text-center">
+                  <h3 className="font-semibold text-[#1D3557]">
+                    {cat.name}
+                  </h3>
                 </div>
               </Link>
             ))}
-
           </div>
+
         </div>
       </section>
 
-      {/* Contact CTA */}
-      <section className="text-center py-16 bg-[#1D3557] text-white">
-        <h2 className="text-3xl md:text-4xl font-bold">Get in Touch</h2>
-        <p className="mt-4 text-gray-300 max-w-xl mx-auto">
-          Have a bulk order or product inquiry? Let us help you stock up on the
-          best stationery at wholesale prices.
-        </p>
-        <Link
-          href="/contact"
-          className="mt-6 inline-block bg-[#E63946] px-6 py-3 rounded-xl font-semibold shadow-lg hover:bg-[#C51F2A] hover:shadow-xl transition"
-        >
-          Contact Us
-        </Link>
+      {/* ================= CTA ================= */}
+      <section className="py-20">
+        <div className="max-w-5xl mx-auto px-6 text-center bg-[#1D3557] text-white rounded-3xl py-16">
+
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Looking for Bulk Stationery Supplies?
+          </h2>
+
+          <p className="mt-4 text-slate-200">
+            Contact us for bulk orders, catalogs and distributor enquiries.
+          </p>
+
+          <Link
+            href="/contact"
+            className="mt-6 inline-block bg-[#E63946] px-8 py-3 rounded-xl font-semibold hover:bg-[#C51F2A] transition shadow"
+          >
+            Contact Us
+          </Link>
+
+        </div>
       </section>
+
     </main>
   );
 }
