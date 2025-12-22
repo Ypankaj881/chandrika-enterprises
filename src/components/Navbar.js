@@ -31,7 +31,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-3">
                         <Image
-                            src="/images/chandrika_ent_logo7.png"
+                            src="/logo.png"
                             alt="logo"
                             width={180}
                             height={60}
@@ -72,7 +72,7 @@ export default function Navbar() {
                 <div className="flex justify-between px-4 pt-4 bg-white pb-4">
                     <Link href="/" className="flex items-center gap-3">
                         <Image
-                            src="/images/chandrika_ent_logo7.png"
+                            src="/logo.png"
                             alt="logo"
                             width={120}
                             height={60}

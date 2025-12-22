@@ -3,9 +3,9 @@ import Link from "next/link";
 import products from "@/data/products.json";
 
 export const metadata = {
-  title: "Chandrika Enterprise | Premium Stationery Distributor",
+  title: "Chandrika Enterprises | Premium Stationery Distributor",
   description:
-    "Chandrika Enterprise is a trusted distributor for stationery products including notebooks, pens, files, and office supplies. Serving schools, businesses, and retailers across Maharashtra.",
+    "Chandrika Enterprises is a trusted distributor for stationery products including notebooks, pens, files, and office supplies. Serving schools, businesses, and retailers across Maharashtra.",
 };
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
 
           <div>
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              Chandrika Enterprise
+              Chandrika Enterprises
             </h1>
 
             <p className="mt-4 text-lg text-slate-200">
@@ -60,7 +60,7 @@ export default function Home() {
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1D3557]">
-            About Chandrika Enterprise
+            About Chandrika Enterprises
           </h2>
 
           <p className="mt-6 text-gray-600 leading-relaxed">

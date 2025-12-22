@@ -1,9 +1,9 @@
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-    title: "Contact Us | Chandrika Enterprise",
+    title: "Contact Us | Chandrika Enterprises",
     description:
-        "Get in touch with Chandrika Enterprise for bulk stationery orders and business enquiries.",
+        "Get in touch with Chandrika Enterprises for bulk stationery orders and business enquiries.",
 };
 
 export default function Contact() {
@@ -14,7 +14,7 @@ export default function Contact() {
             <section className="bg-gradient-to-r from-[#1D3557] to-[#243A5E] text-white">
                 <div className="max-w-7xl mx-auto px-6 py-16 text-center">
                     <h1 className="text-3xl md:text-4xl font-bold">
-                        Contact Chandrika Enterprise
+                        Contact Chandrika Enterprises
                     </h1>
                     <p className="mt-3 text-slate-200 max-w-2xl mx-auto">
                         Bulk orders, dealership enquiries, or product details — we’re here to help.

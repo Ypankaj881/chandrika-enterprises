@@ -10,7 +10,7 @@ export default function Layout({ children }) {
                     <Link href="/" className="">
 
                         <Image
-                            src="/images/chandrika_ent_logo7.png"
+                            src="/logo.png"
                             alt="Chandrika Enterprise"
                             width={150}
                             height={60}

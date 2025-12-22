@@ -1,32 +1,31 @@
-"use client";
-
 export default function LocalBusinessSchema() {
     const schema = {
         "@context": "https://schema.org",
-        "@type": "WholesaleStore", // You can also use "Store" or "OfficeEquipmentStore"
-        name: "Chandrika Enterprise",
-        image: "https://chandrikaenterprise.com/logo.png", // Replace with actual logo URL
-        "@id": "https://chandrikaenterprise.com",
-        url: "https://chandrikaenterprise.com",
-        telephone: "+91-XXXXXXXXXX", // Add your real phone number
+        "@type": ["LocalBusiness", "WholesaleStore"],
+        "@id": "https://chandrika-enterprises.in/#business",
+        name: "Chandrika Enterprises",
+        url: "https://chandrika-enterprises.in",
+        logo: "https://chandrika-enterprises.in/logo.png",
+        image: "https://chandrika-enterprises.in/logo.png",
+        telephone: "+91-8169708265", // use real number
         address: {
             "@type": "PostalAddress",
             streetAddress: "Shree Nagar",
             addressLocality: "Thane",
-            addressRegion: "Maharashtra",
-            postalCode: "400604", // Example pincode for Thane – use correct one
+            addressRegion: "MH",
+            postalCode: "400604",
             addressCountry: "IN",
         },
         geo: {
             "@type": "GeoCoordinates",
-            latitude: 19.2183, // Thane approx lat
-            longitude: 72.9781, // Thane approx long
+            latitude: 19.2183,
+            longitude: 72.9781,
         },
         openingHours: "Mo-Sa 09:00-19:00",
-        sameAs: [
-            "https://www.facebook.com/YourBusinessPage", // optional social links
-            "https://www.instagram.com/YourBusinessPage",
-        ],
+        // sameAs: [
+        //   "https://www.facebook.com/chandrikaenterprises", // real links only
+        //   "https://www.instagram.com/chandrikaenterprises"
+        // ],
     };
 
     return (

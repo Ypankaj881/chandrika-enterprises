@@ -4,17 +4,17 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Chandrika Enterprise | Stationery Distributor in Thane",
+  title: "Chandrika Enterprises | Stationery Distributor in Thane",
   description:
-    "Chandrika Enterprise is a leading distributor of stationery products in Shree Nagar, Thane. Browse notebooks, pens, files, and office supplies at the best prices.",
+    "Chandrika Enterprises is a leading distributor of stationery products in Shree Nagar, Thane. Browse notebooks, pens, files, and office supplies at the best prices.",
   keywords:
     "stationery distributor in Thane, stationery wholesale, office supplies Thane, notebooks supplier, pens supplier",
   openGraph: {
-    title: "Chandrika Enterprise - Stationery Distributor in Thane",
+    title: "Chandrika Enterprises - Stationery Distributor in Thane",
     description:
       "Your trusted stationery distributor in Shree Nagar, Thane. Get notebooks, pens, files, and more for your office or school.",
-    url: "https://chandrikaenterprise.com",
-    siteName: "Chandrika Enterprise",
+    url: "https://chandrika-enterprises.in",
+    siteName: "Chandrika Enterprises",
     locale: "en_IN",
     type: "website",
   },

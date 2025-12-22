@@ -1,45 +1,3 @@
-// import Image from "next/image";
-// import products from "@/data/products.json";
-
-
-// export const metadata = {
-//     title: "Our Products | Chandrika Enterprise",
-//     description:
-//         "Browse our wide range of stationery products including notebooks, pens, files, office supplies, and more.",
-// };
-
-// // const products = [
-// //     { name: "Classic Notebook", img: "/images/notebooks.jpg" },
-// //     { name: "Gel Pen Pack", img: "/images/pens.jpg" },
-// //     { name: "Office File Set", img: "/images/files.jpg" },
-// //     // Add more products later
-// // ];
-
-// export default function Products() {
-//     return (
-//         <main className="max-w-7xl mx-auto px-6 py-16">
-//             <h1 className="text-3xl font-bold text-center mb-10">Our Products</h1>
-//             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-//                 {products.map((p) => (
-//                     <div
-//                         key={p.name}
-//                         className="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden"
-//                     >
-//                         <div className="relative w-full h-48">
-//                             <Image src={p.img} alt={p.name} fill className="object-cover" />
-//                         </div>
-//                         <div className="p-4 text-center">
-//                             <h2 className="font-semibold">{p.name}</h2>
-//                             <button className="mt-3 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-//                                 Request Quote
-//                             </button>
-//                         </div>
-//                     </div>
-//                 ))}
-//             </div>
-//         </main>
-//     );
-// }
 
 
 import Image from "next/image";
@@ -47,9 +5,9 @@ import Link from "next/link";
 import products from "@/data/products.json";
 
 export const metadata = {
-    title: "Products | Chandrika Enterprise",
+    title: "Products | Chandrika Enterprises",
     description:
-        "Explore premium stationery brands and product categories supplied by Chandrika Enterprise for schools, offices and retailers.",
+        "Explore premium stationery brands and product categories supplied by Chandrika Enterprises for schools, offices and retailers.",
 };
 
 export default function ProductsPage() {
