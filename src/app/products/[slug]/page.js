@@ -22,6 +22,10 @@ export default async function CategoryPage({ params }) {
     console.log("params", params)
 
     const { slug } = await params;
+
+    console.log("slug", slug)
+
+
     const category = products.find((p) => p.slug === slug);
 
     if (!category) {
