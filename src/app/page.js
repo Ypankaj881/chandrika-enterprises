@@ -3,9 +3,11 @@ import Link from "next/link";
 import products from "@/data/products.json";
 
 export const metadata = {
-  title: "Chandrika Enterprises | Premium Stationery Distributor",
+  title: "Chandrika Enterprises | Wholesale Stationery, Body Care, Baby Products & Perfume Distributor in Thane"
+  ,
   description:
-    "Chandrika Enterprises is a trusted distributor for stationery products including notebooks, pens, files, and office supplies. Serving schools, businesses, and retailers across Maharashtra.",
+    "Chandrika Enterprises is a trusted wholesale distributor of stationery, body care, baby products and perfumes serving retailers, offices and schools across Thane and Navi Mumbai. We offer notebooks, pens, files, personal care items, baby care essentials and branded perfumes at competitive bulk prices."
+
 };
 
 export default function Home() {
