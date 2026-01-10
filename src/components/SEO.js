@@ -2,11 +2,11 @@ export default function LocalBusinessSchema() {
     const schema = {
         "@context": "https://schema.org",
         "@type": ["LocalBusiness", "WholesaleStore"],
-        "@id": "https://chandrika-enterprises.in/#business",
+        "@id": "https://www.chandrika-enterprises.in/#business",
         name: "Chandrika Enterprises",
-        url: "https://chandrika-enterprises.in",
-        logo: "https://chandrika-enterprises.in/logo.png",
-        image: "https://chandrika-enterprises.in/logo.png",
+        url: "https://www.chandrika-enterprises.in",
+        logo: "https://www.chandrika-enterprises.in/logo.png",
+        image: "https://www.chandrika-enterprises.in/logo.png",
         telephone: "+91-8169708265", // use real number
         address: {
             "@type": "PostalAddress",
