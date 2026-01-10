@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://chandrika-enterprises.in
+Host: https://www.chandrika-enterprises.in
 
 # Sitemaps
-Sitemap: https://chandrika-enterprises.in/sitemap.xml
+Sitemap: https://www.chandrika-enterprises.in/sitemap.xml
