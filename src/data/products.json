@@ -28,5 +28,11 @@
     "slug": "hiphop",
     "logo": "/images/hiphop-logo.png",
     "description": "Advanced skincare solutions with active ingredients."
+  },
+   {
+    "name": "Cupid",
+    "slug": "cupid",
+    "logo": "/images/cupid-logo.jpg",
+    "description": "Advanced skincare solutions with active ingredients."
   }
 ]

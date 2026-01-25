@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
 /* ---------- PAGE ---------- */
 export default async function CategoryPage({ params }) {
 
-    console.log("params", params)
+    // console.log("params", params)
 
     const { slug } = await params;
 
