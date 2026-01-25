@@ -4,6 +4,7 @@ import products from "@/data/products.json";
 import fs from "fs";
 import path from "path";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 /* ---------- SEO ---------- */
 export async function generateMetadata({ params }) {
@@ -79,18 +80,28 @@ export default async function CategoryPage({ params }) {
                     <a
                         href={`/catalogs/${slug}.pdf`}
                         download
-                        className="inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold border border-[#1D3557] text-[#1D3557] hover:bg-[#1D3557] hover:text-white transition"
+                        className="inline-flex gap-1 items-center justify-center px-6 py-3 rounded-full font-semibold border border-[#1D3557] text-[#1D3557] hover:bg-[#1D3557] hover:text-white transition"
                     >
-                        📄 Download Catalog
+
+<MdOutlineFileDownload size={24} />
+
+                         Download Catalog
                     </a>
 
                     <WhatsAppButton />
 
                 </div>
+
+<p className="text-center text-[#1D3557] font-semibold pt-2 text-xl" >
+    Full product range available in catalog.
+Prices and margins shared on enquiry.
+</p>
+
+
             </section>
 
             {/* ================= PRODUCTS GRID ================= */}
-            <section className="max-w-7xl mx-auto px-6 py-16">
+            <section className="max-w-7xl mx-auto px-6 py-10">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
                     {items.length > 0 ? (
