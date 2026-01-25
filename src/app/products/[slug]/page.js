@@ -11,20 +11,21 @@ export async function generateMetadata({ params }) {
     const { slug } = await params;
     const category = products.find((p) => p.slug === slug);
 
-    return {
-        title: `${category?.name || "Products"} | Chandrika Enterprises`,
-        description: `Explore ${category?.name || "our products"} from Chandrika Enterprises.`,
-    };
+ return {
+  title: `${category?.name} Wholesale Distributor in Thane | Chandrika Enterprises`,
+  description: `${category?.name} wholesale supplier in Thane and Navi Mumbai. Bulk supply for retailers, schools, pharmacies and businesses. Genuine products, competitive pricing and fast delivery.`,
+};
+
 }
 
 /* ---------- PAGE ---------- */
 export default async function CategoryPage({ params }) {
 
-    // console.log("params", params)
+  
 
     const { slug } = await params;
 
-    console.log("slug", slug)
+ 
 
 
     const category = products.find((p) => p.slug === slug);
@@ -92,7 +93,7 @@ export default async function CategoryPage({ params }) {
 
                 </div>
 
-<p className="text-center text-[#1D3557] font-semibold pt-2 text-xl" >
+<p className="text-center text-[#1D3557] font-semibold pt-2 text-lg" >
     Full product range available in catalog.
 Prices and margins shared on enquiry.
 </p>
