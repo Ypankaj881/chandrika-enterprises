@@ -1,10 +1,16 @@
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-    title: "About Us | Chandrika Enterprises",
-    description:
-        "Learn about Chandrika Enterprises, our journey, mission, and commitment to quality stationery distribution.",
+  title:
+    "About Chandrika Enterprises | Wholesale Distributor of Stationery, Personal Care & FMCG in Thane",
+
+  description:
+    "Chandrika Enterprises is a trusted wholesale distributor of stationery, body care, baby products, perfumes and FMCG items serving retailers and businesses across Thane and Navi Mumbai. Learn about our mission, values and commitment to quality supply.",
+
+  keywords:
+    "about Chandrika Enterprises, wholesale distributor Thane, stationery wholesaler Navi Mumbai, personal care supplier Maharashtra, baby products distributor, FMCG wholesale supplier",
 };
+
 
 export default function About() {
     return (

@@ -9,20 +9,20 @@ import "slick-carousel/slick/slick-theme.css";
 
 export const metadata = {
   title:
-    "Chandrika Enterprises | Wholesale Stationery, Body Care, Baby Products & Perfume Distributor in Thane",
+    "Chandrika Enterprises | Wholesale Distributor in Thane for Stationery, Personal Care, Baby Products, Perfumes & FMCG",
 
   description:
-    "Chandrika Enterprises is a trusted wholesale distributor of stationery, body care, baby products and perfumes serving retailers, offices and schools across Thane and Navi Mumbai. We supply notebooks, pens, files, personal care items, baby care essentials and branded perfumes at competitive bulk prices.",
+    "Chandrika Enterprises is a trusted wholesale distributor in Thane supplying stationery, personal care, baby products, perfumes and wellness essentials to retailers, offices, schools and medical stores across Thane and Navi Mumbai.",
 
   keywords:
-    "stationery wholesaler in Thane, baby products distributor in Thane, body care wholesale supplier, perfume distributor Thane, office supplies wholesaler, notebooks bulk supplier, baby care products wholesale Navi Mumbai",
+    "wholesale distributor in Thane, stationery wholesaler Thane, personal care distributor Thane, baby products wholesale supplier, perfume distributor Thane, FMCG distributor Navi Mumbai, office stationery bulk supplier, school stationery wholesaler, healthcare essentials distributor",
 
   openGraph: {
     title:
-      "Wholesale Stationery, Baby Products, Body Care & Perfumes Distributor in Thane | Chandrika Enterprises",
+      "Wholesale Distributor in Thane | Stationery, Personal Care, Baby Products & FMCG – Chandrika Enterprises",
 
     description:
-      "Buy stationery, baby products, body care items and perfumes at wholesale prices from Chandrika Enterprises, trusted distributor serving Thane and Navi Mumbai retailers.",
+      "Buy stationery, personal care, baby products, perfumes and wellness essentials at wholesale prices from Chandrika Enterprises, serving retailers and institutions across Thane and Navi Mumbai.",
 
     url: "https://www.chandrika-enterprises.in",
     siteName: "Chandrika Enterprises",
@@ -34,6 +34,7 @@ export const metadata = {
     canonical: "https://www.chandrika-enterprises.in",
   },
 };
+
 
 
 
