@@ -4,11 +4,22 @@ import Image from "next/image";
 import Link from "next/link";
 import products from "@/data/products.json";
 
+// export const metadata = {
+//     title: "Products | Chandrika Enterprises",
+//     description:
+//         "Explore premium stationery brands and product categories supplied by Chandrika Enterprises for schools, offices and retailers.",
+// };
 export const metadata = {
-    title: "Products | Chandrika Enterprises",
-    description:
-        "Explore premium stationery brands and product categories supplied by Chandrika Enterprises for schools, offices and retailers.",
+  title:
+    "Products | Wholesale Stationery, Personal Care, Baby Products & Perfumes – Chandrika Enterprises",
+
+  description:
+    "Browse product categories from Chandrika Enterprises including stationery brands, personal care products, baby essentials, perfumes and FMCG items supplied at wholesale prices across Thane and Navi Mumbai.",
+
+  keywords:
+    "wholesale products Thane, stationery distributor Thane, personal care wholesale supplier, baby products distributor Navi Mumbai, perfume wholesale distributor, FMCG supplier Maharashtra, bulk office stationery supplier",
 };
+
 
 export default function ProductsPage() {
     return (

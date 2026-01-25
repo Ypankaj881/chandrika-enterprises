@@ -1,10 +1,16 @@
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
-    title: "Contact Us | Chandrika Enterprises",
-    description:
-        "Get in touch with Chandrika Enterprises for bulk stationery orders and business enquiries.",
+  title:
+    "Contact Chandrika Enterprises | Wholesale Distributor in Thane & Navi Mumbai",
+
+  description:
+    "Contact Chandrika Enterprises for bulk orders, dealership enquiries and wholesale supply of stationery, personal care, baby products, perfumes and FMCG items across Thane and Navi Mumbai.",
+
+  keywords:
+    "contact stationery distributor Thane, wholesale supplier Thane, baby products distributor Navi Mumbai, personal care wholesale contact, perfume distributor Thane, FMCG supplier Maharashtra",
 };
+
 
 export default function Contact() {
     return (
