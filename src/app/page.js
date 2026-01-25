@@ -3,12 +3,17 @@ import Link from "next/link";
 import products from "@/data/products.json";
 
 export const metadata = {
-  title: "Chandrika Enterprises | Wholesale Stationery, Body Care, Baby Products & Perfume Distributor in Thane"
-  ,
+  title:
+    "Chandrika Enterprises | Wholesale Distributor of Stationery, Personal Care, Baby Products & Perfumes in Thane",
+
   description:
-    "Chandrika Enterprises is a trusted wholesale distributor of stationery, body care, baby products and perfumes serving retailers, offices and schools across Thane and Navi Mumbai. We offer notebooks, pens, files, personal care items, baby care essentials and branded perfumes at competitive bulk prices."
+    "Chandrika Enterprises is a trusted wholesale distributor supplying stationery, body care, baby products, perfumes and FMCG items to retailers, offices and schools across Thane, Navi Mumbai and Maharashtra. Competitive bulk pricing, reliable supply and genuine brands.",
+
+  keywords:
+    "wholesale distributor Thane, stationery wholesaler Navi Mumbai, baby products distributor Thane, personal care wholesale supplier, perfume distributor Maharashtra, FMCG bulk supplier, office stationery wholesale",
 
 };
+
 
 export default function Home() {
   return (
