@@ -43,10 +43,30 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <head>
-        {/* ✅ BEST PLACE FOR SCHEMA */}
-        <LocalBusinessSchema />
-      </head>
+    <head>
+  {/* ✅ BEST PLACE FOR SCHEMA */}
+  <LocalBusinessSchema />
+
+  {/* ✅ Google Analytics */}
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-BHW7CRKCCQ"
+  ></script>
+
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-BHW7CRKCCQ', {
+          page_path: window.location.pathname,
+        });
+      `,
+    }}
+  />
+</head>
+
       <body className="antialiased">
 
         <Navbar />
