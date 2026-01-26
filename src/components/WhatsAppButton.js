@@ -1,3 +1,5 @@
+"use client";
+
 export default function WhatsAppButton({
     text = "Enquire on WhatsApp",
     message = "Hello, I want to enquire about your products.",
