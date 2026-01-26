@@ -6,11 +6,21 @@ export default function WhatsAppButton({
 }) {
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
+     const handleClick = () => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "whatsapp_click", {
+        event_category: "Lead",
+        event_label: text,
+      });
+    }
+  };
+
     return (
         <a
             href={url}
             target="_blank"
             rel="noopener noreferrer"
+             onClick={handleClick}
             className={`
         inline-flex items-center gap-3
         px-6 py-3
