@@ -34,5 +34,11 @@
     "slug": "cupid",
     "logo": "/images/cupid-logo.png",
     "description": "Advanced skincare solutions with active ingredients."
-  }
+  },
+  {
+  "name": "Montex",
+  "slug": "cupid",
+  "logo": "/images/cupid-logo.jpg",
+  "description": "Personal wellness and family planning products from a trusted Indian brand."
+}
 ]

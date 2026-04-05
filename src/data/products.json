@@ -34,6 +34,30 @@
   "slug": "cupid",
   "logo": "/images/cupid-logo.jpg",
   "description": "Personal wellness and family planning products from a trusted Indian brand."
+},
+{
+  "name": "Montex",
+  "slug": "montex",
+  "logo": "/images/montex1.png",
+  "description": "Premium pens and writing instruments trusted across India."
+},
+{
+  "name": "Cello",
+  "slug": "cello",
+  "logo": "/images/cello.png",
+  "description": "Premium pens and writing instruments trusted across India."
+},
+{
+  "name": "Playboy",
+  "slug": "playboy",
+  "logo": "/images/playboy.png",
+  "description": "Premium pens and writing instruments trusted across India."
+},
+{
+  "name": "Longboat",
+  "slug": "longboat",
+  "logo": "/images/longboat.jpg",
+  "description": "Premium pens and writing instruments trusted across India."
 }
 
 ]
