@@ -51,8 +51,13 @@
   "name": "Playboy",
   "slug": "playboy",
   "logo": "/images/playboy.png",
-  "description": "Premium pens and writing instruments trusted across India."
+  "description": "Premium Luxury fragrance and personal care brand."
+},
+{
+  "name": "Longboat",
+  "slug": "longboat",
+  "logo": "/images/longboat.jpg",
+  "description": "Luxury fragrance"
 }
-
 
 ]
