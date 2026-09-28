@@ -1,40 +1,20 @@
 [
-  {
-    "name": "Hindustan Pencils",
-    "slug": "hindustan-pencils",
-    "logo": "/images/hindustan-pencils-logo.jpg",
-    "description": "Manufacturer of high-quality pencils, erasers, sharpeners and school stationery."
-  },
+ 
   {
     "name": "JL Morison",
     "slug": "jlmorison",
     "logo": "/images/JLMLogo.jpg",
     "description": "Premium pens and writing instruments trusted across India."
   },
-  {
-    "name": "Adour Paris",
-    "slug": "adourparis",
-    "logo": "/images/adour-paris-logo.png",
-    "description": "Luxury fragrance and personal care brand."
-  },
+  
   {
     "name": "BellaVita",
     "slug": "bellavita",
     "logo": "/images/bellavita-logo.jpg",
     "description": "Natural personal care and wellness products."
   },
-  {
-    "name": "HipHop Skincare",
-    "slug": "hiphop",
-    "logo": "/images/hiphop-logo.png",
-    "description": "Advanced skincare solutions with active ingredients."
-  },
-{
-  "name": "Cupid",
-  "slug": "cupid",
-  "logo": "/images/cupid-logo.jpg",
-  "description": "Personal wellness and family planning products from a trusted Indian brand."
-},
+ 
+
 {
   "name": "Montex",
   "slug": "montex",
@@ -47,17 +27,48 @@
   "logo": "/images/cello.png",
   "description": "Premium pens and writing instruments trusted across India."
 },
-{
-  "name": "Playboy",
-  "slug": "playboy",
-  "logo": "/images/playboy.png",
-  "description": "Premium Luxury fragrance and personal care brand."
-},
+
 {
   "name": "Longboat",
   "slug": "longboat",
   "logo": "/images/longboat.jpg",
   "description": "Luxury fragrance"
+},
+{
+  "name": "Premier Tissues",
+  "slug": "premier",
+  "logo": "/images/premier-tissue-logo.jpg",
+  "description": "Premium Tissues"
+},
+{
+  "name": "Sagar Perfumes",
+  "slug": "sagar",
+  "logo": "/images/sagar-perfumes.webp",
+  "description": "Luxury fragrance"
+},
+{
+  "name": "Maxi",
+  "slug": "maxi",
+  "logo": "/images/maxi-logo.png",
+  "description": "Premium Toothbrush"
+},
+{
+  "name": "JOY",
+  "slug": "joy",
+  "logo": "/images/joy-logo.webp",
+  "description": "Natural personal care and wellness products."
+},
+{
+  "name": "Ayouthveda",
+  "slug": "ayouthveda",
+  "logo": "/images/ayouthveda-logo.webp",
+  "description": "Natural skin care"
+},
+{
+  "name": "Shape Stationery ",
+  "slug": "shape",
+  "logo": "/images/shape-logo.png",
+  "description": "Staionary products"
 }
 
 ]
